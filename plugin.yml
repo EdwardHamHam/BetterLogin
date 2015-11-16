@@ -1,0 +1,24 @@
+  name: BetterLogin
+  main: thebigsmileXD\BetterLogin\Main
+  version: 0.0.1
+  api: 1.0.0
+  load: POSTWORLD
+  prefix: "BetterLogin"
+  authors: [thebigsmileXD]
+  description: "An enchanted login system"
+  commands:
+   login:
+    description: "Login"
+    usage: "/login <password>"
+    permission: betterlogin.login
+   signup:
+    description: "Signup"
+    usage: "/signup <email> <password>"
+    permission: returnpos
+  permissions:
+    betterlogin.login:
+      description: Permission for /login command.
+      default: true
+    betterlogin.signup:
+      description: Permission for /signup command.
+      default: true

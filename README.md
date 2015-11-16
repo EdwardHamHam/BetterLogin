@@ -24,4 +24,5 @@ Many, every message will be customizeable and almost everything
  - nametempban
  - online settings like changing displayed name, email, password...
  - will work with Volt by @Falk
+ - player stats like online, playtime, skin, broken and placed blocks, registered since and more
  - many more, too many to list

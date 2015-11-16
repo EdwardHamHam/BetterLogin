@@ -18,10 +18,10 @@ above the non-logged-in players a book&quill will float and a text saying "Loggi
 Many, every message will be customizeable and almost everything
 
 ## Features
--ipban
--nameban
--iptempban
--nametempban
--online settings like changing displayed name, email, password...
--will work with Volt by @Falk
--many more, too many to list
+ - ipban
+ - nameban
+ - iptempban
+ - nametempban
+ - online settings like changing displayed name, email, password...
+ - will work with Volt by @Falk
+ - many more, too many to list

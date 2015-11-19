@@ -1,8 +1,0 @@
----
-sql:
-  host: localhost
-  user: root
-  password: bqkAWQ4MC
-  database: _289918_2
-  port: 3306
-...

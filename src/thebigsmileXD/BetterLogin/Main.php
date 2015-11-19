@@ -23,6 +23,7 @@ class Main extends PluginBase implements Listener{
 	public $database = '';
 
 	public function onEnable(){
+		$this->getPluginLoader()->disablePlugin($this);
 		$this->makeSaveFiles();
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
 		$this->connectSQL();
@@ -295,9 +296,9 @@ class Main extends PluginBase implements Listener{
 
 	public function isLoggedIn(Player $player){
 		if(in_array($player->getName(), $this->loggedInPlayers)){
-			#if(array_key_exists($player->getName(), $this->loggedInPlayers)){
-				return true;
-			#}
+			// if(array_key_exists($player->getName(), $this->loggedInPlayers)){
+			return true;
+			// }
 		}
 		return false;
 	}
